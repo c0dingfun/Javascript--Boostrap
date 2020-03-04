@@ -102,6 +102,8 @@ JavaScript and Bootstrap
 
 ## Intro to Bootstrap
 
+- Note: Render the <mark>boots.html</mark> to see the power of Bootstrap
+
 ```html
        <!-- bootstrap necessities -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">

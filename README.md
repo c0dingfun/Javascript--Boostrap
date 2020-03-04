@@ -98,10 +98,40 @@ JavaScript and Bootstrap
 - key down
 - document load
 - ...
+```
 
+## Intro to Bootstrap
 
+```iecst
 
+- a framework that makes web development much more efficient
+- framework includes: HTML & CSS based design templates for typography, forms, buttons, tables, navigation, modals, and image carousels.
+- also includes optional Javascript plugins
 
+- streamlines the development process
+- has built-in components
+- provides responsiveness, styling, and cross-browser functions already tested
 
+- Key benefits:
+- ease of use: basic understanding of HTML and CSS is enough to use Bootstrap
+- Responsive Features: bootstrap layouts adjust for optimal viewing on all devices, including phones, tablets, and desktops.
+- cross-browser compatibility: bootstrap is compatible with all modern browsers include Chrome, Firefox, Internet explorer, Safari, and Opera, Edge.
+
+- Container Types:
+- fixed with container
+- fluid container
+
+- Grid System
+- col size sum must be 12 
+
+- column size:
+- xs (extra small) - for phones
+- sm (small) - for tablets
+- md (medium) - for laptops and desktops
+- lg (large) - for larger desktops
+
+- 3 column layouts
+- will work on tablets in landscape mode without stacking.
+- only if the tablets screen resolution is => 992px;
 
 ```

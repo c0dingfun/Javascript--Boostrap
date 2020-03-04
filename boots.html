@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap necessities -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- compiled bootstrap -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <style>
+            .container {
+                background-color: #2ba6cb;
+                padding: 0 90px;
+            }
+            .container-fluid {
+                background-color: #2ba6cb;
+                padding: 0 90px;
+            }
+
+            .bg1 {
+                background: cyan;
+            }
+            .bg2 {
+                background: yellow;
+            }
+
+
+
+        </style>
+    </head>
+    
+    <body>
+        <!-- <div class="container"> -->
+        <div class="container-fluid">
+            <h2>Bootstrap Page</h2>
+            <p>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised 
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including 
+                versions of Lorem Ipsum
+            </p>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <!-- 6+6 = 12 -->
+                <div class="col-lg-6 bg1">This is a test 1</div>
+                <div class="col-lg-6 bg2">This is a test 2</div>
+            </div>
+        </div>
+        <p>
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <!-- 4+4+4 = 12 -->
+                <!-- <div class="col-lg-4 bg1">This is a test 1</div>
+                <div class="col-lg-4 bg2">This is a test 2</div>
+                <div class="col-lg-4 bg1">This is a test 3</div> -->
+
+                <!-- 2+8+2 = 12 -->
+                <div class="col-lg-2 bg1">This is a test 1</div>
+                <div class="col-lg-8 bg2">This is a test 2</div>
+                <div class="col-lg-2 bg1">This is a test 3</div>
+            </div>
+        </div>
+        </p>
+
+        <div class=container>
+
+        <!-- Headings -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!-- Secondary Text using bootstrap's <small> tag-->
+        <h1>Heading 1<small>Secondary text</small></h1>
+        <h2>Heading 2<small>Secondary text</small></h2>
+        <h3>Heading 3<small>Secondary text</small></h3>
+        <h4>Heading 4<small>Secondary text</small></h4>
+        <h5>Heading 5<small>Secondary text</small></h5>
+        <h6>Heading 6<small>Secondary text</small></h6>
+
+        <!-- Highlight Text using bootstrap's <mark> tag-->
+        <p>With Bootstrap we can <mark>highlight</mark>text</p>
+
+        <!-- Dotted Underline using bs' <abbr>-->
+        <p>We can also <abbr title="Explanation">Underline</abbr> text with a dotted line.</p>
+
+        <!-- bs' <blockquote> and <footer> tags -->
+        <h1>Blockquotes</h1>
+
+        <blockquote>
+            <p>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised 
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including 
+                versions of Lorem Ipsum
+            </p>
+            <footer> Loren Ipsum Source</footer>
+        </blockquote>
+        <hr />
+
+        <!-- Blockquotes Reverse -->
+        <h1>Blockquotes Reverse</h1>
+        <blockquote class="blockquote-reverse">
+            <p>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised 
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including 
+                versions of Lorem Ipsum
+            </p>
+            <footer> Loren Ipsum Source</footer>
+        </blockquote>
+
+        <!-- Code Snippets -->
+        <h1> Code Snippets</h1>
+        <p>
+            HTML elements: <code>div</code>, <code>section</code>, and <code>span</code>
+        </p>
+
+        <h1> Keyboard Inputs</h1>
+        <p>
+            Use <kbd>ctrol + v</kbd> to paste copied text.
+        </p>
+        <hr/>
+
+        <!-- Contextual Classes -->
+        <h1> Contextual Classes</h1>
+        <p class="text-muted">Muted Text.</p>
+        <p class="text-primary">ImportantText.</p>
+        <p class="text-success">Success Text.</p>
+        <p class="text-info">Informational Text.</p>
+        <p class="text-warning">Warning Text.</p>
+        <p class="text-danger">DangerText.</p>
+
+            <!-- Contextual Background Classes -->
+            <h1>Contextual Background Classes</h1>
+
+            <p class="bg-primary">ImportantText.</p>
+            <p class="bg-success">Success Text.</p>
+            <p class="bg-info">Informational Text.</p>
+            <p class="bg-warning">Warning Text.</p>
+            <p class="bg-danger">DangerText.</p>
+
+        </div>
+
+    </body>
+
+</html>

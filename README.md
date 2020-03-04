@@ -145,4 +145,7 @@ JavaScript and Bootstrap
 - will work on tablets in landscape mode without stacking.
 - only if the tablets screen resolution is => 992px;
 
+
+- .list-group-item-heading
+- .list-group-item-text
 ```

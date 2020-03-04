@@ -102,7 +102,7 @@ JavaScript and Bootstrap
 
 ## Intro to Bootstrap
 
-- Note: Render the <mark>boots.html</mark> to see the power of Bootstrap
+- Note: Render the <b>boots.html</b> to see the power of Bootstrap
 
 ```html
        <!-- bootstrap necessities -->

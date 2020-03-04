@@ -102,6 +102,15 @@ JavaScript and Bootstrap
 
 ## Intro to Bootstrap
 
+```html
+       <!-- bootstrap necessities -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- compiled bootstrap -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+```
+
 ```iecst
 
 - a framework that makes web development much more efficient

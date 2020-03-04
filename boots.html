@@ -27,9 +27,6 @@
             .bg2 {
                 background: yellow;
             }
-
-
-
         </style>
     </head>
     
@@ -166,8 +163,124 @@
             <p class="bg-warning">Warning Text.</p>
             <p class="bg-danger">DangerText.</p>
 
+
+            <!-- Bootstrap Table -->
+            <!-- <table class="table table-hover"> -->
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="success">
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>80</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>Ted</td>
+                        <td>Baker</td>
+                        <td>90</td>
+                    </tr>
+                    <tr class="info">
+                        <td>Molly</td>
+                        <td>Doe</td>
+                        <td>93</td>
+                    </tr>
+                </tbody>
+
+            </table>
         </div>
 
-    </body>
+        <div class="container">
+            <!-- <img src="beach.jpg" width="500" height="300"> -->
+            <!-- <img class="img-rounded" src="beach.jpg" width="500" height="300"> -->
+            <!-- <img class="img-circle" src="beach.jpg" width="500" height="300"> -->
+            <!-- <img class="img-thumbnail" src="beach.jpg" width="500" height="300"> -->
+            <img class="img-responsive" src="beach.jpg" width="500" height="300">
+        </div>
 
+        <div class="container">
+            <!-- <div class="jumbotron"> -->
+            <div class="page-header">
+                <h1>Heading</h1>
+                <p>Sub-Title</p>
+            </div>
+
+            <p>Page content can start here ....</p>
+
+        </div>
+
+
+        <div class="container">
+
+            <br>
+            <div class="well well-sm">Small Well</div>
+            <div class="well">Normal</div>
+            <div class="well well-lg">Large Well</div>
+        </div>
+
+
+        <div class="container">
+            <br>
+            <div class="alert alert-success fade in">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Success</strong>
+            </div>
+            <div class="alert alert-info">
+                <strong>Info</strong>
+            </div>
+            <div class="alert alert-warning">
+                <strong>Warning</strong>
+            </div>
+            <div class="alert alert-danger">
+                <strong>Danger</strong>
+            </div>
+        </div>
+
+        <div class="container">
+            <br>
+
+            <!-- Button Styles -->
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+
+            <hr/>
+
+            <a href="#" class="btn btn-info" role="button">Link Button</a>
+            <input type="button" class="btn btn-primary" value="Input Button">
+            <input type="button" class="btn btn-warning" value="Submit Button">
+
+            <!-- Button Size -->
+            <hr/>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Medium</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            <button type="button" class="btn btn-primary btn-xs">Xtra Small</button>
+
+            <!-- Block Level Buttons -->
+            <hr/>
+            <button type="button" class="btn btn-primary btn-block">Button 1</button>
+            <button type="button" class="btn btn-default btn-block">Button 2</button>
+
+            <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+            <button type="button" class="btn btn-default btn-lg btn-block">Button 2</button>
+
+            <button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+            <button type="button" class="btn btn-default btn-sm btn-block">Button 2</button>
+
+            <!-- Active vs Disabled Buttons -->
+            <button type="button" class="btn btn-primary active">Active Primary</button>
+            <button type="button" class="btn btn-primary disabled">DisabledPrimary</button>
+        </div>
+    </body>
 </html>

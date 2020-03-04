@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <script type="text/javascript">
+        function changeText(id){
+            id.innerHTML="NEW Text"
+        }
+
+        // moved to external javascript file - dogage.js
+        // function dyears(form){
+        //     form.dogage.value=form.myage.value *7
+        // }
+
+    </script>
+
+    <script type="text/javascript" src="dogage.js">
+    </script>
+</head>
+
+<body>
+
+<h1 onclick="changeText(this)">Click Me</h1>
+
+<b>Find out you age in dog years</b>
+
+<form method="POST">
+    <table>
+        <tr>
+            <td>Enter you age</td>
+            <td>
+                <input type="text" name="myage" size=15>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Calculate" onclick="dyears(this.form)">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Your age in Dog Years is:</td>
+            <td><input type="text" name="dogage" size=15>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<p> The results will be displayed below this line</p>
+
+<script type="text/javascript">
+    document.write(5+6);
+</script>
+
+<script type="text/javascript">
+    // window.alert(10+6);
+
+    // comments
+    /* also comments*/
+
+
+</script>
+
+<p id="math">
+    <script type="text/javascript">
+        document.getElementById("math").innerHTML = 10+33;
+    </script>
+</p>
+
+<h1>Javascript Variables</h1>
+
+<p id="demo">
+    <script type="text/javascript">
+        var x=10;
+        var y=15;
+        var z = x+y;
+
+        document.getElementById("demo").innerHTML= z;
+        
+    </script>
+</p>
+
+<p id="demo2">
+    <script>
+        document.getElementById("demo2").innerHTML = Math.random();
+    </script>
+</p>
+<p id="demo3">
+    <script>
+        document.getElementById("demo3").innerHTML = 
+            Math.min(600, 300, 40, 50, 63);
+    </script>
+</p>
+
+<p id="demo4">
+    <script>
+        var fruits = ['apple', 'orange', 'pear', 'grape'];
+        document.getElementById("demo4").innerHTML = fruits.toString();
+    </script>
+</p>
+
+<p id="demo5">
+    <script>
+        var fruits = ['apple', 'orange', 'pear', 'grape'];
+        document.getElementById("demo5").innerHTML = fruits.join(' * ');
+    </script>
+
+    <!-- array can do "shift" to remove the first element
+    array can do "pop" to remove the last element -->
+
+    <!-- use push('new element') to add to the end of the array
+    use unshift('new element') to add to the front of the array -->
+
+    <!-- in place sort();
+    in place reverse();
+    array.concat(another_array); -->
+
+</p>
+
+<p id="demo6">
+    <script>
+        var fruits = ['apple', 'orange', 'pear', 'grape'];
+        fruits.splice(2, 0, "test1", "test2")
+        document.getElementById("demo6").innerHTML = fruits.toString();
+    </script>
+</p>
+
+<p id="demo7">
+    <script>
+        var person = {fname:'john', lname:'smith', age:30};
+        var txt = '';
+        var property;
+        // can loop through objet properties
+        for(property in person) {
+            txt += person[property] + " ";  // object property can be access in dictionary way
+        }
+        document.getElementById("demo7").innerHTML = txt;
+    </script>
+</p>
+
+<p id="demo8">
+    <script>
+        var i = 0;
+        while (i< 10){
+            document.write(i);
+            document.write("<br/>");
+            i++;
+        }
+    </script>
+</p>
+
+<p>
+    <!-- <button value="test" onclick="getElementById('demo9').innerHTML=Date()">Time</button> -->
+    <!-- <button value="test" onmouseout="getElementById('demo9').innerHTML=Date()">Time</button> -->
+    <button onmouseover="getElementById('demo9').innerHTML=Date()">Time</button>
+</p>
+
+<p id="demo9"></p>
+
+<p id="demo10">
+
+    <script>
+        // changing background color of the page each time reloaded
+        var bgcolor = new Array('#029fd4', '#1eff00', '#eaeaff', '#ffea00', '#ab5252', '#ffffff', '#de28d8');
+        document.body.style.background=bgcolor[Math.floor(Math.random() *bgcolor.length)];
+
+    </script>
+</p>
+
+</body>
+</html>

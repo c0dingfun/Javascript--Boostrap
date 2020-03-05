@@ -1,13 +1,13 @@
 # Javascript--Boostrap
-
-JavaScript and Bootstrap
-
-## What is the DOM
-
-```iecst
-- "Document Object Model"
-- A tree of objects created by web browser, when a web page loads.
-- The web browser uses the DOM to interpret the page and display it contents.
+       
+              vaScript and Bootstrap
+                     
+               What is the DOM
+              
+                     iecst
+              "Document Object Model"
+        A tree of objects created by web browser, when a web page loads.
+        The web browser uses the DOM to interpret the page and display it contents.
 
 - Document
 - Document Element <HTML>
@@ -217,3 +217,5 @@ JavaScript and Bootstrap
 36.  Popover
 37.  Scrollspy
 ```
+
+- [Bootstrap Themes](https://startbootstrap.com/)

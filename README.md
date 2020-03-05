@@ -156,4 +156,64 @@ JavaScript and Bootstrap
 - Vertical (Default)
 - Horizontal
 - Inline
+
+- Support all HTML5 input types
+- text
+- password
+- datetime
+- datetime-local
+- date
+- month
+- time
+- week
+- number
+- email
+- url
+- search
+- tel
+- color
+
+
+```
+
+## Bootstrap Features
+
+```iecst
+1.  Grid System
+2.  Three Column Layouts
+3.  Typography
+4.  Tables
+5.  Styling Images
+6.  Jumbotron
+7.  Wells
+8.  Alerts
+9.  Buttons
+10.  Button Groups
+11.  Justified Button Groups
+12.  Glyphicons
+13.  Badges and Labels
+14.  Progress Bars
+15.  Pagination
+16.  Pager Pagination
+17.  List Groups
+18.  Panels
+19.  Dropdown Menus
+20.  Collapsibles
+21.  Collapse Panel
+22.  Collapse List Group
+23.  Accordian
+24.  Tab Menus
+25.  Pill Menus
+26.  Dynamic Tabs and Pills
+27.  Navigation Bar
+28.  Collapsible Navigation Bar
+29.  Forms - Vertical and Inline
+30.  Inputs
+31.  Form Control States
+32.  Input Sizing
+33.  Carousel
+34.  Modal
+35.  Tooltip
+36.  Popover
+37.  Scrollspy
 ```

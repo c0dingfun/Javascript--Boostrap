@@ -12,6 +12,14 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <style>
+            hr {
+                display: block;
+                height: 1px;
+                border: 0;
+                border-top: 1px solid blue;
+                margin: 1em 0;
+                padding: 0;
+            }
             /* .container {
                 background-color: #2ba6cb;
                 padding: 0 90px;
@@ -884,6 +892,248 @@
             </div>
         </nav>
 
+        <!-- Form -->
+        <div class="container">
+            <h4>Form:</h4>
+
+            <!-- <form class="form-inline" role="form"> -->
+            <form role="form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Remember Me>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+
+            </form>
+            <hr/>
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Remember Me>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+
+            </form>
+
+        </div>
+
+        <hr/>
+
+        <div class="container">
+            <h4> Form Inputs</h4>
+            <form role="form">
+                <!-- input field-->
+                <div class="form-group">
+                    <label for="usr">Name:</label>
+                    <input type="text" class="form-control" id="usr">
+                </div>
+                <!-- Text area-->
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+
+                <!-- Check boxes -->
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Option 1</label>
+                </div>
+
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Option 2</label>
+                </div>
+
+                <!-- Radio Buttons -->
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Option 1</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Option 2</label>
+                </div>
+
+                <!-- Select Menu -->
+                <div class="form-group">
+                    <label for="sel">Select list:</label>
+                    <select class="form-control" id="sel">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+
+                <!-- Multiple Select Menu -->
+                <div class="form-group">
+                    <label for="msel">Multiple select list:</label>
+                    <select multiple class="form-control" id="msel"> <!-- must have "multiple" there-->
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <hr/>
+        <div class="container">
+            <!-- Form States -->
+            <h4> Horizontal form: control states</h4>
+            <form class="form-horizontal" role="form">
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="focused">Focused</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="focused" type="text" value="Click to Focus">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="disabled">Disabled</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="disabled" type="text" placeholder="Disabled" disabled>
+                    </div>
+                </div>
+
+                <div class="form-group has-success has-feedback">
+                    <label class="col-sm-2 control-label" for="success">Success</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="success">
+                        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="form-group has-warning has-feedback">
+                    <label class="col-sm-2 control-label" for="warning">Warning</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="warning">
+                        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                    </div>
+                </div>
+                <div class="form-group has-error has-feedback">
+                    <label class="col-sm-2 control-label" for="error">Error</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="error">
+                        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="container">
+
+            <!-- Input Sizing -->
+            <h4>Input Sizing</h4>
+
+            <!-- For Vertical Layout -->
+            <form class="form" role="form">
+                <div class="form-group">
+                    <label for="inp1">Input</label>
+                    <input class="form-control input-lg" id="inp1" type="text">
+                </div>
+                <div class="form-group">
+
+                    <label for="sel1">Select</label>
+                    <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+            </form>
+            
+            <hr/>
+            <!-- For Horizontal Layout -->
+            <form class="form-horizontal" role="form">
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" for="lg">LARGE</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="lg" type="text">
+                    </div>
+                </div>
+                <div class="form-group form-group-sm">
+                    <label class="col-sm-2 control-label" for="sm">Small</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="sm">
+                    </div>
+                </div>
+            </form>
+
+            <hr/>
+
+            <!-- Column Sizing -->
+
+            <div class="col-xs-2">
+                <label for="in1">col-xs-2</label>
+                <input class="form-control" id="in1" type="text">
+            </div>
+            <div class="col-xs-3">
+                <label for="in2">col-xs-3</label>
+                <input class="form-control" id="in2" type="text">
+            </div>
+            <div class="col-xs-4">
+                <label for="in3">col-xs-4</label>
+                <input class="form-control" id="in3" type="text">
+            </div>
+        </div>
+
+        <style>
+            .carousel-inner > .item > img{
+                width: 80%;
+                margin: auto;
+            }
+        </style>
+
+        <!-- Carousel -->
+        <div class="container">
+
+            <br>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div 
+
+                </div>
+            </div>
+
+
+
+        </div>
         
         <!-- --------------- -->
 
@@ -891,5 +1141,7 @@
             <p> <br> <br> <br> <br> <br> <br> </p>
         </div>
 
+
     </body>
+
 </html>

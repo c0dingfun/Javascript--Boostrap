@@ -148,4 +148,12 @@ JavaScript and Bootstrap
 
 - .list-group-item-heading
 - .list-group-item-text
+
+- .navbar-fixed-top
+- .navbar-fixed-bottom
+
+- Form Layouts:
+- Vertical (Default)
+- Horizontal
+- Inline
 ```
